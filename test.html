@@ -17,7 +17,8 @@
 
         <script>
             let device;
-            let inputCharacteristic;
+            let endpointIn;
+            let endpointOut;
 
             document.getElementById('connect').addEventListener('click', function() {
                 connect();
@@ -35,7 +36,11 @@
                     console.log(device.configurations);
                     await device.open();
                     await device.selectConfiguration(1);
-                    await device.claimInterface(0);
+                    const iface = device.configuration.interfaces[0];
+                    await device.claimInterface(iface.interfaceNumber);
+                    const endpoints = iface.endpoints;
+                    endpointIn = endpoints[0];
+                    endpointOut = endpoints[1];
                     document.getElementById('status').innerText = " ";
                 } 
                 catch (error) {
@@ -49,14 +54,16 @@
                     document.getElementById('status').innerText = "Reading...";
                     const encoder = new TextEncoder();
                     const dataArray = encoder.encode("json");
-                    await device.transferOut(4, dataArray);
+                    await device.selectAlternateInterface(endpointOut.interfaceNumber, endpointOut.alternate.settingNumber);
+                    await device.transferOut(endpointOut.endpointNumber, dataArray);
 
                     const decoder = new TextDecoder();
-                    const result = await device.transferIn(5, 64);
+                    await device.selectAlternateInterface(endpointIn.interfaceNumber, endpointIn.alternate.settingNumber);
+                    const result = await device.transferIn(endpointIn.endpointNumber, endpointIn.packetSize);
                     let recievedString = decoder.decode(result.data);
                     document.getElementById('data').innerText = "data: " + recievedString;
 
-                    await device.releaseInterface(0);
+                    await device.releaseInterface(device.configuration.interfaces[0].interfaceNumber);
                     await device.close();
                     document.getElementById('status').innerText = " ";
                 } 
