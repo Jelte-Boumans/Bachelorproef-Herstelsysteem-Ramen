@@ -32,9 +32,10 @@
                     document.getElementById('status').innerText = "Connecting...";
                     device = await navigator.usb.requestDevice({ filters: [{ vendorId: 0x2341 }] });
                     document.getElementById('data').innerText = "Device found: " + device.productName;
+                    console.log(device.configurations);
                     await device.open();
                     await device.selectConfiguration(1);
-                    await device.claimInterface(2);
+                    await device.claimInterface(0);
                     document.getElementById('status').innerText = " ";
                 } 
                 catch (error) {
@@ -55,7 +56,7 @@
                     let recievedString = decoder.decode(result.data);
                     document.getElementById('data').innerText = "data: " + recievedString;
 
-                    await device.releaseInterface(2);
+                    await device.releaseInterface(0);
                     await device.close();
                     document.getElementById('status').innerText = " ";
                 } 
