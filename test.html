@@ -33,14 +33,9 @@
                     document.getElementById('status').innerText = "Connecting...";
                     device = await navigator.usb.requestDevice({ filters: [{ vendorId: 0x2341 }] });
                     document.getElementById('data').innerText = "Device found: " + device.productName;
-                    console.log(device.configurations);
                     await device.open();
                     await device.selectConfiguration(1);
-                    const iface = device.configuration.interfaces[0];
-                    await device.claimInterface(iface.interfaceNumber);
-                    const endpoints = iface.endpoints;
-                    endpointIn = endpoints[0];
-                    endpointOut = endpoints[1];
+                    await device.claimInterface(0);
                     document.getElementById('status').innerText = " ";
                 } 
                 catch (error) {
@@ -54,16 +49,14 @@
                     document.getElementById('status').innerText = "Reading...";
                     const encoder = new TextEncoder();
                     const dataArray = encoder.encode("json");
-                    await device.selectAlternateInterface(endpointOut.interfaceNumber, endpointOut.alternate.settingNumber);
-                    await device.transferOut(endpointOut.endpointNumber, dataArray);
+                    await device.transferOut(0, dataArray);
 
                     const decoder = new TextDecoder();
-                    await device.selectAlternateInterface(endpointIn.interfaceNumber, endpointIn.alternate.settingNumber);
-                    const result = await device.transferIn(endpointIn.endpointNumber, endpointIn.packetSize);
+                    const result = await device.transferIn(0, 64);
                     let recievedString = decoder.decode(result.data);
                     document.getElementById('data').innerText = "data: " + recievedString;
 
-                    await device.releaseInterface(device.configuration.interfaces[0].interfaceNumber);
+                    await device.releaseInterface(0);
                     await device.close();
                     document.getElementById('status').innerText = " ";
                 } 
