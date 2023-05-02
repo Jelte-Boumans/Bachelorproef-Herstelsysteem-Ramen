@@ -63,15 +63,19 @@ class action_value_window extends action_value_type {
             }
 
             $FOR1740_array = get_request_parameter("FOR1740");  // Array of which windows had this box checked
-            for($i = 0; $i < count($FOR1740_array); $i++) {
-                $currentWindow = $FOR1740_array[$i];    // Save current window from the list
-                $action->set_value("win".$currentWindow."_FOR1740", "true");    // Save "true" in database for every window selected
+            if($FOR1740_array) {   // If the array is empty, dont attempt to loop through it
+                for($i = 0; $i < count($FOR1740_array); $i++) {
+                    $currentWindow = $FOR1740_array[$i];    // Save current window from the list
+                    $action->set_value("win".$currentWindow."_FOR1740", "true");    // Save "true" in database for every window selected
+                }
             }
 
             $rABC_array = get_request_parameter("rABC");  // Array of which windows had this box checked
-            for($i = 0; $i < count($rABC_array); $i++) {
-                $currentWindow = $rABC_array[$i];    // Save current window from the list
-                $action->set_value("win".$currentWindow."_rABC", "true");    // Save "true" in database for every window selected
+            if($rABC_array) {   // If the array is empty, dont attempt to loop through it
+                for($i = 0; $i < count($rABC_array); $i++) {
+                    $currentWindow = $rABC_array[$i];    // Save current window from the list
+                    $action->set_value("win".$currentWindow."_rABC", "true");    // Save "true" in database for every window selected
+                }
             }
 
             //if (is_valid_id($val)) { //beslissing of ales goed is ingevuld
@@ -95,3 +99,57 @@ class action_value_window extends action_value_type {
     }
 
 }
+
+/*
+        $buttonCoords = array(
+            "576,135,622,177",
+            "576,291,622,332",
+            "451,135,496,177",
+            "450,291,497,332",
+            "391,135,437,177",
+            "391,291,437,332",
+            "340,135,387,177",
+            "341,291,387,332",
+            "288,135,333,177",
+            "288,291,333,332",
+            "161,135,207,176",
+            "162,290,208,332",
+            "104,135,150,177",
+            "104,291,150,332",
+            "636,367,682,409",
+            "635,515,681,556",
+            "577,367,622,409",
+            "577,515,624,556",
+            "451,367,497,409",
+            "451,515,497,556",
+            "391,367,438,409",
+            "391,515,437,556",
+            "342,367,387,409",
+            "341,516,386,557",
+            "288,367,334,408",
+            "288,514,334,556",
+            "161,367,207,409",
+            "162,515,208,556",
+            "103,367,150,409",
+            "104,515,151,556",
+            "638,596,684,638",
+            "461,742,507,783",
+            "582,597,627,639",
+            "396,742,443,783",
+            "471,596,517,638",
+            "345,742,391,783",
+            "351,596,398,638",
+            "293,742,339,783",
+            "297,596,342,638",
+            "172,742,217,783",
+            "172,597,218,638",
+            "583,742,629,784",
+            "641,741,687,783",
+            "636,134,682,176",
+            "636,290,682,331",
+            "743,212,788,254",
+            "116,597,163,638",
+            "11,668,57,710",
+            "116,742,162,783",
+        );
+*/
