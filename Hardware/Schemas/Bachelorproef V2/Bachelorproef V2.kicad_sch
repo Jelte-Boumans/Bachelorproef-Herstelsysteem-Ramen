@@ -3127,7 +3127,7 @@
     (property "Reference" "R7" (id 0) (at 85.09 80.0099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "120Ω" (id 1) (at 83.82 82.55 0)
+    (property "Value" "150Ω" (id 1) (at 83.82 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 80.772 81.28 90)
@@ -3181,7 +3181,7 @@
     (property "Reference" "R14" (id 0) (at 198.12 146.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "390kΩ" (id 1) (at 195.58 148.59 0)
+    (property "Value" "910kΩ" (id 1) (at 195.58 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 201.422 147.32 90)
@@ -3799,7 +3799,7 @@
     (property "Reference" "R8" (id 0) (at 97.79 80.0099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "120Ω" (id 1) (at 96.52 82.55 0)
+    (property "Value" "150Ω" (id 1) (at 96.52 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 93.472 81.28 90)
@@ -3989,10 +3989,10 @@
       (reference "R6") (unit 1) (value "22Ω") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/72919f65-1b8c-4d67-acfd-9e30bd2605d1"
-      (reference "R7") (unit 1) (value "120Ω") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R7") (unit 1) (value "150Ω") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/fc08deda-f04f-47a5-a6fd-1fbcb9951de6"
-      (reference "R8") (unit 1) (value "120Ω") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R8") (unit 1) (value "150Ω") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/3a543739-361f-437c-a325-3a8e29f1f40f"
       (reference "R9") (unit 1) (value "4k7Ω") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
@@ -4010,7 +4010,7 @@
       (reference "R13") (unit 1) (value "10kΩ") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/872b1738-1647-4c8e-8f4a-96832859fff8"
-      (reference "R14") (unit 1) (value "390kΩ") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R14") (unit 1) (value "910kΩ") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/0a0fbdf1-3683-4392-9ad2-e725a5eb7726"
       (reference "SW1") (unit 1) (value "Reset") (footprint "SW_PTS636_SM43J_SMTR_LFS:SW_PTS636_SM43J_SMTR_LFS")
