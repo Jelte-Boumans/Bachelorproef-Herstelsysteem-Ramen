@@ -34,27 +34,34 @@ for(var i=0;i<action_type_ids.length;i++){
     }
 }
 
-let port;
-let datalogger;
+let port, datalogger, reader, writer;
 
-async function dataloggerConnect(windowNr) {
+async function dataloggerRequest(windowNr) {
     try {
-        $('#serialStatus'+windowNr).html("Connecting...");
-        port = await navigator.serial.requestPort();    // Let user select a port
-        await port.open({ baudRate: 9600 });    // Open selected port
-    
-        setTimeout(function() { // Wait untill connected
-            dataloggerRequest(windowNr, "json").catch(console.error);   // "json" is the string that will be sent to the arduino
-        }, 2000);
+        await dataloggerConnect(windowNr);
     }
-    catch { // If the connecting failed, clear the status
-        $('#serialStatus'+windowNr).html("");
+    catch(error) { // If the request failed, report it and close port
+        console.log(error)
+        $('#serialStatus'+windowNr+',#_serialStatus'+windowNr).html("Failed");
+        await writer.releaseLock();
+        await reader.releaseLock();
+        await port.close();
     }
 }
 
-async function dataloggerRequest(windowNr, request="") {
-    // WRITE
-    const writer = port.writable.getWriter();
+async function dataloggerConnect(windowNr) {
+    $('#serialStatus'+windowNr+',#_serialStatus'+windowNr).html("Connecting...");
+    port = await navigator.serial.requestPort();    // Let user select a port
+    await port.open({ baudRate: 9600 });    // Open selected port
+
+    setTimeout(function() {  // Wait 2s until connected
+        dataloggerWrite(windowNr, "json")
+    }, 2000);
+}
+
+async function dataloggerWrite(windowNr, request="") {
+    $('#serialStatus'+windowNr+',#_serialStatus'+windowNr).html("Writing...");
+    writer = port.writable.getWriter();
 
     const encoder = new TextEncoder();
     const dataArrayBuffer = encoder.encode(request).buffer;
@@ -63,12 +70,17 @@ async function dataloggerRequest(windowNr, request="") {
 
     writer.releaseLock();
 
-    // READ
-    const reader = port.readable.getReader();
+    setTimeout(function() {  // Wait 2s until connected
+        dataloggerRead(windowNr)
+    }, 2000);
+}
+
+async function dataloggerRead(windowNr) {
+    $('#serialStatus'+windowNr+',#_serialStatus'+windowNr).html("Reading...");
+    reader = port.readable.getReader();
     const decoder = new TextDecoder();
 
     let receivedString = "";
-    $('#serialStatus'+windowNr).html("Reading...");
 
     while (true) {
         const { value, done } = await reader.read();
@@ -78,10 +90,10 @@ async function dataloggerRequest(windowNr, request="") {
 
         if (receivedString.endsWith('\n')) {
             datalogger = JSON.parse(receivedString);    // Parse recieved string into JSON object
-            $('#temp'+windowNr).val(datalogger.temp);   // Autofill the recieved data in the corresponding input fields
-            $('#temp_kast'+windowNr).val(datalogger.temp_kast);
-            $('#humidity'+windowNr).val(datalogger.humidity);
-            $('#dew_point'+windowNr).val(datalogger.dew_point);
+            $('#_temp'+windowNr+',#temp'+windowNr).val(datalogger.temp);   // Autofill the recieved data in the corresponding input fields
+            $('#_temp_kast'+windowNr+',#temp_kast'+windowNr).val(datalogger.temp_kast);
+            $('#_humidity'+windowNr+',#humidity'+windowNr).val(datalogger.humidity);
+            $('#_dew_point'+windowNr+',#dew_point'+windowNr).val(datalogger.dew_point);
 
             receivedString = '';
             break;
@@ -89,10 +101,7 @@ async function dataloggerRequest(windowNr, request="") {
     }
 
     reader.releaseLock();
-    dataloggerDisconnect(windowNr).catch(console.error);
-}
 
-async function dataloggerDisconnect(windowNr) {
     await port.close(); // Close selected port
-    $('#serialStatus'+windowNr).html("Done!");
+    $('#serialStatus'+windowNr+',#_serialStatus'+windowNr).html("Finished!");
 }
