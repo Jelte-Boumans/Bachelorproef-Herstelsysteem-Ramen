@@ -10,6 +10,6 @@ void loop() {
 
   digitalWrite(PIN, HIGH);
   delay(500);
-  digitalWrite(PIN, HIGH);
+  digitalWrite(PIN, LOW);
   delay(500);
 }
