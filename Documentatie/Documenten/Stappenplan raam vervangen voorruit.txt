@@ -1,0 +1,220 @@
+!!! = Vetgedrukte letters
+- - = Tekstvelden voor user
+
+
+1. Algemene voorbereiding
+	Stap 1.1
+	Ontgrendel en open het voorste plafondluik in de stuurpost.
+	!!!Draag een stootpet bij het werken in de stuurpost.!!!
+	Ontkoppel de connectoren van de ruitverwarming en thermostaat.
+
+	Stap 1.2
+	Plaats een platform aan de kop van het voertuig en activeer de remmen.
+	Maak het frontpaneel bovenaan los met een portiersleutel.
+	Ontkoppel de stekkers van de koplichten.
+
+	Stap 1.3
+	Neem met 2 personen het frontpaneel weg en leg deze op een veilige plaats.
+	Demonteer de 2 handgrepen, draai hiervoor 4 bouten M10x55 los met dopsleutel 16mm bij elke handgreep.
+	Tenslotte, demonteer de ruitenwisserarm.
+
+
+2. Demontage glas
+	Stap 2.1
+	Plak de aangrenzende lakoppervlakken van de voorruit af met plakband.
+	Snij de verlijming van de voorruit V-vormig uit mbv pneumatisch snijgereedschap uitgerust met recht snijblad.
+	!!!Draag een veiligheidsbril en snijwerende handschoenen tijdens het werken met de multitool.!!!
+	Verwijder de lijmvoeg.
+
+	Stap 2.2
+	Vervang het rechte mes op het pneumatisch snijgereedschap door een gehoekt mes.
+	Positioneer het mes vlak langs de kopruit en snijdt de verlijming door tussen voorruit en vensterframe.
+	Demonteer het rooster aan de binnenzijde van het raam draai hiervoor 3 schroefjes los met een inbussleutel/bits 3.
+
+	Stap 2.3
+	Neem de frontaanduider weg.
+	Leg een beschermingshoes over de stuurtafel.
+	Snij met het pneumatisch snijgereedschap, voorzien van een recht snijblad (09901018), rondom het glas langs binnenzijde.
+	Reinig de voorruit met Sika® Cleaner G+P.
+
+	Stap 2.5
+	Hang de hefband van de glasmanipulator aan de haak van de rolbrug.
+	Til de glasmanipulator voorzichtig van het pallet.
+	Breng de glasmanipulator aan op de te demonteren kopruit.
+	Verwijder de voorruit met behulp van een zuignap.
+  	!!!Controleer dat de zuignappen overal vlak aansluiten op de kopruit.!!!
+	Plaats de beschadigde voorruit op de daarvoor voorziene glasbok en beveilig deze tegen vallen.
+	!!!Bij werken met de brug mag er maar 1 persoon fysiek de last besturen bij het neerplaatsen!!!
+
+
+3. Montage glas
+	Stap 3.1
+	Controleer de inhoud van de verlijmingskar en verwijder producten die niet relevant zijn voor de verlijming omwille van contaminatiegevaar van de verlijmingsproducten en oppervlakten.
+	
+	Stap 3.2.1 - Voorbereiding kast
+	Verwijder met een pneumatisch snijgereedschap de achtergebleven losse lijmresten op het vensterframe. Hierbij mag een lijmlaag van 1 à 2 mm overblijven. 
+	!!!Draag snijwerende handschoenen.!!!
+	Controleer het frame op beschadigingen. Grote beschadigingen aan de laklaag dienen herstelt te worden in samenspraak met de schilderswerf. 
+
+	Stap 3.2.2 - Voorbereiding kast
+	Neem de beschermingsdoek van de stuurtafel weg.
+	Reinig de stuurtafel met een stofzuiger.
+	Verwijder alle afgesneden lijmresten en zorg voor een propere werkplek voor het verlijmen aan te vangen.
+
+	Stap 3.2.3 - Voorbereiding kast
+	Reinig met Sika Remover 208 en pluisvrije doek het vensterframe.
+	Activeer met Sika Activator 100 en vilt de restanten van de lijmlaag van het vensterframe.
+ 	!!!Laat deze minimum 10min uitwasemen.!!!
+
+	Stap 3.2.4 - Voorbereiding kast
+	Breng met een pad Sika Primer 207 aan op de beschadigde delen van het vensterframe waar geen lijm meer aanwezig is.
+ 	!!!Schud de primer gedurende MINIMUM 1min op waarbij de kogel hoorbaar ratelt.!!!
+ 	!!!Laat deze minimum 10min uitwasemen.!!!
+
+	Stap 3.2.5 - Voorbereiding kast
+	Breng plakband aan op de binnenzijde van de stuurcabine waar de ruit moet worden gekleefd.
+
+	Stap 3.3.1 - Voorberijding glas
+	Meet de waarde van de verwarmingsweerstanden van de nieuwe kopruit na, ± 150Ω. Bij een te sterk afwijkende waarde mag deze kopruit niet geplaatst worden [135Ω - 165Ω].
+
+	Stap 3.3.2 - Voorberijding glas
+	Reinig de nieuwe ruit met eco degreaser indien de ruit sterk vervuild is.
+	!!!Doe beschermende nitril wegwerphandschoenen aan.!!!
+	Reinig vervolgens de te verlijmen oppervlakten van de kopruit met Sika Cleaner G+P (0,5L) en pluisvrije doek. Reinig aan de hand van de wipe-on wipe-off methode tot de doek proper blijft.
+	Vraag na bij een teamleader of de voorwaarden voor temperatuur en vochtigheid voldaan zijn vooraleer te starten met verlijmen. 
+ 	!!!Indien de grenswaarden overschreden worden mag er niet verlijmd worden.!!!
+
+	Stap 3.3.3 - Voorberijding glas
+	Neem de nieuwe kopruit op met de glasmanipulator en breng deze op ergonomische hoogte.
+	Breng met een pad Sika Activator 100 aan op de te verlijmen oppervlakten van de kopruit (zwarte band op het glas & siliconeband rondom het glas) met een dunne laag.
+	Veeg onmiddellijk aansluitend het lijmoppervlak op het glas met een droge, propere en vezelvrije doek af (wipe on, wipe off methode).
+
+
+	Stap 3.3.4 - Voorberijding glas
+ 	!!!Schud de primer gedurende MINIMUM 1minuut krachtig, de kogel moet hoorbaar ratelen.!!!
+	Breng met een nieuwe pad Sika Primer 206 G+P aan op de te verlijmen oppervlakten van de ruit in een dunne gelijkmatige laag.
+ 	!!!Laat deze ongeveer 30-60min uitwasemen.!!!
+
+	Stap 3.3.5 - Voorberijding glas
+	Breng plakband aan op de buitenzijde kopruit, snij de overtollige plakband weg.
+	Doe snijwerende handschoenen aan.
+
+	Stap 3.4.1 - Verlijming
+	Vul de siliconepomp met Sikaflex 268.
+ 	!!!Doe beschermende nitril wegwerphandschoenen aan.!!!
+	Kijk de siliconepomp na op defecten. 
+	Zorg ervoor dat de accu’s opgeladen zijn.
+	Leg de lijm cartridges klaar om de pomp te hervullen. (zowel Sika 268 als Sika 268 Powercure)
+	Positioneer de kopruit op ergonomische werkhoogte waarbij een collega de ruit beveiligd tegen rotatie.
+
+	Stap 3.4.2 - Verlijming
+	Neem een stuk karton waarop de eerste 10cm lijm kan gespoten worden.
+	Spuit de blauw aangeduide delen met Sikaflex 268 op langs de binnenzijde van de kopruit in een driehoekige rups. Breedte ±20mm, hoogte ±15mm.
+	
+	Stap 3.4.3 - Verlijming
+	Plaats de Sikaflex 268 powercure cartridge in het lijmpistool.
+	!!!Voorzie genoeg cartriges powercure zodat een snelle wisseling mogelijk is.!!!
+	Spuit de eerste 10cm op een stuk karton.
+	Spuit de rood aangeduide hoeken met Sikaflex 268 powercure (01290052) op langs de binnenzijde van de kopruit in een driehoekige rups. Breedte ±20mm, hoogte ±15mm.
+	!!!Maximum 10minuten tussen verlijmen en plaatsen van de ruit.!!!
+
+	Stap 3.4.4 - Verlijming
+	Spuit de rood aangeduide delen met Sikaflex 268 powercure (01290052) op de kast, in een driehoekige rups.
+	Breedte ±20mm, hoogte ±15mm.
+	!!!Breng de lijmrups onderbroken aan met spaties van 50mm.!!!
+ 	!!!Maximum 10minuten tussen verlijmen en plaatsen van de ruit.!!!
+	
+	
+	Stap 3.5.1 - Plaatsen van het glas
+	Centreer de kopruit t.o.v. het vensterframe.
+	Plaats de afstandshouders, 1 mm - 2 mm - 4 mm.
+	!!!De voegbreedte bedraagt 10mm.!!!
+
+	Stap 3.5.2 - Plaatsen van het glas
+	Pas de kopruit centraal op het vensterframe en druk aan tot deze vlak aansluit. De lijm zou zichtbaar uit de naad moeten treden tijdens het aanduwen.
+	!!!Bij werken met de brug mag er maar 1 persoon fysiek de last besturen bij het neerplaatsen.!!!
+	Beveilig de kopruit tegen wegglijden door houten stopblokken met behulp van de handgrepen tegen de ruit te monteren.
+	!!!Hou de kopruit ±1uur ondersteund door middel van de rolbrug.!!!
+
+	Stap 3.5.3 - Plaatsen van het glas
+	Verwijder de afstandshouders pas na 4uur.
+	Controleer de inhoud van de verlijmingskar.
+	!!!Berg de gebruikte primers, activators en ongebruikte lijmtubes terug op in de brandkast.!!!
+	Verwijder halflege tubes Sika 268 en Sika 268 Powercure.
+
+
+	Stap 3.6.1 - Afkitten
+	!!!Het afkitten mag pas aanvangen 12uur na de verlijming.!!!
+	Controleer de inhoud van de verlijmingskar.
+	!!!Verwijder producten die niet relevant zijn voor het afkitten omwille van contaminatiegevaar van de verlijmingsproducten en oppervlakten.!!!
+
+
+	Stap 3.6.2 - Afkitten
+	Kuis de lijmnaden uit met pluisvrije doek en Sika Activator 100 indien de verlijming meer dan 12uur geleden is.
+ 	!!!Laat 20min tot 2u uitwasemen.!!!
+	Spuit de voeg tussen kader en raam op met Sikaflex-268. Gebruik hiervoor de ronde spuitmond. 
+  	!!!Let op bij het afkitten dat er geen lucht ingesloten wordt.!!!
+
+	Stap 3.6.3 - Afkitten
+	Breng Seal fluid aan op de afgestreken lijmvoeg.
+	Strijk de uittredende lijm vlak met behulp van een afstrijkspatel met een duwende beweging.
+	Verwijder de beschermingstape.
+	Spuit de naad aan binnenzijde op met Sikaflex-268 in een niet onderbroken rups.
+ 	!!!Let op bij het afkitten dat er geen lucht ingesloten wordt.!!!
+
+	Stap 3.6.4 - Afkitten
+	Breng Seal fluid aan op de lijmvoeg.
+	Strijk de lijmvoeg vlak met behulp van een afstrijkspatel met een duwende beweging.
+	Verwijder de plakband.
+	Verwijder indien nodig de lijmresten en verontreinigingen met Sika remover-208.
+ 	Let op bij het opkuisen dat geen remover in contact komt met de lijmnaad.
+
+	Stap 3.6.5 - Afkitten
+	Open het voorste plafondpaneel in de stuurcabine.
+	!!!Draag een stootpet bij het werken in de stuurpost.!!!
+	Sluit de connectoren, van de elektrische verwarmingsvelden en thermostaat terug aan.
+	Hermonteer de front bestemmingsaanduider.
+	Sluit en vergrendel het voorste plafondluik in de stuurcabine.
+
+	Stap 3.6.6 - Afkitten
+	Hermonteer de rooster aan de voorruit met 3 schroeven met inbusmaat 3.
+	Hermonteer de handvaten met M10x55 bouten en bijhorende sluitringen en borgveerringen.
+ 	!!!Gebruik steeds een nieuwe borgveerring.!!!
+	Draai de bouten M10 op moment, 45Nm, aan met een momentsleutel 10-50 Nm met dopsleutel 16.
+	Markeer de bouten met een blauwe markeerstift (01770037).
+
+	Stap 3.6.7 - Afkitten
+	Monteer de ruitenwisserarm en een nieuw ruitenwisserblad.
+	Plaats met 2 personen het frontpaneel terug.
+	Borg het frontpaneel bovenaan met een portiersleutel.
+	Herkoppel de stekkers van de koplampen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
