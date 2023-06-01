@@ -168,14 +168,14 @@
         $('#selectedWindows').val(selectedWindows); // Cache the selected windows array to be saved in to the database
         if(selectedWindows.length == 0) {   // If there are no windows selected
             $("#dropdown-window-text").show();  // Display the "no windows selected" text
-            for(let i = 0; i < 50; i++) // Hide every dropdown one by one
+            for(let i = 0; i < 51; i++) // Hide every dropdown one by one
                 $("#dropdown-window"+i).hide(); 
             return;
         }
 
         // If there is at least one window selected 
         $("#dropdown-window-text").hide();  // Hide the "no windows selected" text
-        for(let i = 0; i < 50; i++) {   // Show the selected windows and hide the rest one by one
+        for(let i = 0; i < 51; i++) {   // Show the selected windows and hide the rest one by one
             if(selectedWindows.includes(i))
                 $("#dropdown-window"+i).show();
             else
@@ -274,7 +274,7 @@
     </div>*}
     <article id="checklist">
         <div id="accordion">
-            {for $windowNr=1 to 49}
+            {for $windowNr=1 to 50}
                 <h3 id="dropdown-window{$windowNr}">Raam {$windowNr}</h3>
                 {include file="window_blocks.tpl" codeBlock="inputfield_readonly"}
             {/for}
@@ -314,7 +314,7 @@
             </div>
 
             <div id="accordion">
-                {for $windowNr=1 to 49}
+                {for $windowNr=1 to 50}
                     <h3 id="dropdown-window{$windowNr}">Raam {$windowNr}</h3>
                     <div id="dropdown-window{$windowNr}">
                         <div id="steps{$windowNr}" {if $action->get_value(implode("", ["win$windowNr", "_window_saved"]))}hidden{/if}>
